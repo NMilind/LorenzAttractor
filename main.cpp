@@ -88,7 +88,7 @@ bool initialize() {
 
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(-WIDTH / 2.0, WIDTH / 2.0, -HEIGHT / 2.0, HEIGHT / 2.0, 2000, -2000);
+    glOrtho(-WIDTH / 3.0, 2.0 * WIDTH / 3.0, -HEIGHT / 3.0, 2.0 * HEIGHT / 3.0, 3000, -1000);
     glMatrixMode(GL_MODELVIEW);
     glEnable(GL_DEPTH_TEST);
     glDepthFunc(GL_LESS);
