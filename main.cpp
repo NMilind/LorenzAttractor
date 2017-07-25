@@ -27,16 +27,19 @@ bool key[5] = { false, false, false, false, false };
 bool redraw = true;
 bool doexit = false;
 
+double rotX = 0;
+double rotY = 0;
+double rotZ = 0;
+
 ALLEGRO_DISPLAY         *display = NULL;
 ALLEGRO_EVENT_QUEUE     *event_queue = NULL;
 ALLEGRO_TIMER           *timer = NULL;
 
 lorenz attractor (10, 28, 2.66, 0.01, 0.01, 0.01, 0, 200, 50000);
 
-
 ALLEGRO_COLOR lerp(double iter, double max) {
 
-    double hue = 270 - ((iter / max) * 240);
+    double hue = 270 - ((iter / max) * 100);
     return al_color_hsv(hue, 1, 1);
 }
 
@@ -101,6 +104,26 @@ void logic() {
         doexit = true;
     }
 
+    if (key[KEY_LEFT]) {
+        rotX -= 0.1;
+    }
+    else if (key[KEY_RIGHT]) {
+        rotX += 0.1;
+    }
+    else {
+        rotX *= 0.95;
+    }
+
+    if (key[KEY_UP]) {
+        rotY += 0.1;
+    }
+    else if (key[KEY_DOWN]) {
+        rotY -= 0.1;
+    }
+    else {
+        rotY *= 0.95;
+    }
+
     redraw = true;
 }
 
@@ -133,9 +156,9 @@ void draw() {
 
     glEnd();
 
-    glRotatef(M_PI / 6.0, 1, 0, 0);
-    glRotatef(M_PI / 6.0, 0, 1, 0);
-    glRotatef(M_PI / 6.0, 0, 0, 1);
+    glRotated(rotX, 1, 0, 0);
+    glRotated(rotY, 0, 1, 0);
+    glRotated(rotZ, 0, 0, 1);
 }
 
 int main(int argc, char **argv) {
