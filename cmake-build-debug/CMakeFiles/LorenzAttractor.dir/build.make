@@ -81,17 +81,108 @@ CMakeFiles/LorenzAttractor.dir/main.cpp.o.provides: CMakeFiles/LorenzAttractor.d
 CMakeFiles/LorenzAttractor.dir/main.cpp.o.provides.build: CMakeFiles/LorenzAttractor.dir/main.cpp.o
 
 
+CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o: CMakeFiles/LorenzAttractor.dir/flags.make
+CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o: ../lorenz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nikhil/Code/LorenzAttractor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o -c /Users/nikhil/Code/LorenzAttractor/lorenz.cpp
+
+CMakeFiles/LorenzAttractor.dir/lorenz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LorenzAttractor.dir/lorenz.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikhil/Code/LorenzAttractor/lorenz.cpp > CMakeFiles/LorenzAttractor.dir/lorenz.cpp.i
+
+CMakeFiles/LorenzAttractor.dir/lorenz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LorenzAttractor.dir/lorenz.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikhil/Code/LorenzAttractor/lorenz.cpp -o CMakeFiles/LorenzAttractor.dir/lorenz.cpp.s
+
+CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o.requires:
+
+.PHONY : CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o.requires
+
+CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o.provides: CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o.provides.build
+.PHONY : CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o.provides
+
+CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o.provides.build: CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o
+
+
+CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o: CMakeFiles/LorenzAttractor.dir/flags.make
+CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o: ../vertex3d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nikhil/Code/LorenzAttractor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o -c /Users/nikhil/Code/LorenzAttractor/vertex3d.cpp
+
+CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikhil/Code/LorenzAttractor/vertex3d.cpp > CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.i
+
+CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikhil/Code/LorenzAttractor/vertex3d.cpp -o CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.s
+
+CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o.requires:
+
+.PHONY : CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o.requires
+
+CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o.provides: CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o.provides.build
+.PHONY : CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o.provides
+
+CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o.provides.build: CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o
+
+
 # Object files for target LorenzAttractor
 LorenzAttractor_OBJECTS = \
-"CMakeFiles/LorenzAttractor.dir/main.cpp.o"
+"CMakeFiles/LorenzAttractor.dir/main.cpp.o" \
+"CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o" \
+"CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o"
 
 # External object files for target LorenzAttractor
 LorenzAttractor_EXTERNAL_OBJECTS =
 
 LorenzAttractor: CMakeFiles/LorenzAttractor.dir/main.cpp.o
+LorenzAttractor: CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o
+LorenzAttractor: CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o
 LorenzAttractor: CMakeFiles/LorenzAttractor.dir/build.make
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_acodec.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_acodec.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_acodec.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_audio.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_audio.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_audio.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_color.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_color.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_color.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_dialog.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_dialog.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_dialog.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_font.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_font.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_font.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_image.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_image.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_image.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_main.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_main.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_main.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_memfile.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_memfile.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_memfile.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_physfs.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_physfs.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_physfs.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_primitives.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_primitives.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_primitives.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_ttf.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_ttf.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_ttf.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_video.5.2.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_video.5.2.dylib
+LorenzAttractor: /usr/local/Cellar/allegro/5.2.2/lib/liballegro_video.dylib
 LorenzAttractor: CMakeFiles/LorenzAttractor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nikhil/Code/LorenzAttractor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LorenzAttractor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nikhil/Code/LorenzAttractor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LorenzAttractor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LorenzAttractor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +191,8 @@ CMakeFiles/LorenzAttractor.dir/build: LorenzAttractor
 .PHONY : CMakeFiles/LorenzAttractor.dir/build
 
 CMakeFiles/LorenzAttractor.dir/requires: CMakeFiles/LorenzAttractor.dir/main.cpp.o.requires
+CMakeFiles/LorenzAttractor.dir/requires: CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o.requires
+CMakeFiles/LorenzAttractor.dir/requires: CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o.requires
 
 .PHONY : CMakeFiles/LorenzAttractor.dir/requires
 

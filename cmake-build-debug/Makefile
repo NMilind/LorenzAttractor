@@ -123,6 +123,33 @@ LorenzAttractor/fast:
 	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/build
 .PHONY : LorenzAttractor/fast
 
+lorenz.o: lorenz.cpp.o
+
+.PHONY : lorenz.o
+
+# target to build an object file
+lorenz.cpp.o:
+	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o
+.PHONY : lorenz.cpp.o
+
+lorenz.i: lorenz.cpp.i
+
+.PHONY : lorenz.i
+
+# target to preprocess a source file
+lorenz.cpp.i:
+	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/lorenz.cpp.i
+.PHONY : lorenz.cpp.i
+
+lorenz.s: lorenz.cpp.s
+
+.PHONY : lorenz.s
+
+# target to generate assembly for a file
+lorenz.cpp.s:
+	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/lorenz.cpp.s
+.PHONY : lorenz.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+vertex3d.o: vertex3d.cpp.o
+
+.PHONY : vertex3d.o
+
+# target to build an object file
+vertex3d.cpp.o:
+	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o
+.PHONY : vertex3d.cpp.o
+
+vertex3d.i: vertex3d.cpp.i
+
+.PHONY : vertex3d.i
+
+# target to preprocess a source file
+vertex3d.cpp.i:
+	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.i
+.PHONY : vertex3d.cpp.i
+
+vertex3d.s: vertex3d.cpp.s
+
+.PHONY : vertex3d.s
+
+# target to generate assembly for a file
+vertex3d.cpp.s:
+	$(MAKE) -f CMakeFiles/LorenzAttractor.dir/build.make CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.s
+.PHONY : vertex3d.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LorenzAttractor"
+	@echo "... lorenz.o"
+	@echo "... lorenz.i"
+	@echo "... lorenz.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... vertex3d.o"
+	@echo "... vertex3d.i"
+	@echo "... vertex3d.s"
 .PHONY : help
 
 

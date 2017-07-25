@@ -82,7 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nikhil/Code/LorenzAttractor/lorenz.cpp">
+			<Option target="LorenzAttractor"/>
+		</Unit>
+		<Unit filename="/Users/nikhil/Code/LorenzAttractor/lorenz.h">
+			<Option target="LorenzAttractor"/>
+		</Unit>
 		<Unit filename="/Users/nikhil/Code/LorenzAttractor/main.cpp">
+			<Option target="LorenzAttractor"/>
+		</Unit>
+		<Unit filename="/Users/nikhil/Code/LorenzAttractor/vertex3d.cpp">
 			<Option target="LorenzAttractor"/>
 		</Unit>
 		<Unit filename="/Users/nikhil/Code/LorenzAttractor/CMakeLists.txt">

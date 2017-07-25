@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/nikhil/Code/LorenzAttractor/lorenz.cpp" "/Users/nikhil/Code/LorenzAttractor/cmake-build-debug/CMakeFiles/LorenzAttractor.dir/lorenz.cpp.o"
   "/Users/nikhil/Code/LorenzAttractor/main.cpp" "/Users/nikhil/Code/LorenzAttractor/cmake-build-debug/CMakeFiles/LorenzAttractor.dir/main.cpp.o"
+  "/Users/nikhil/Code/LorenzAttractor/vertex3d.cpp" "/Users/nikhil/Code/LorenzAttractor/cmake-build-debug/CMakeFiles/LorenzAttractor.dir/vertex3d.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
